@@ -1,0 +1,32 @@
+name: TomVanish
+version: '${version}'
+
+main: site.thomasts.TomVanish.TomVanish
+api-version: 1.21
+load: POSTWORLD
+
+author: Thomakosxd
+website: https://www.thomasts.site
+
+commands:
+  vanish:
+    description: Toggle vanish state.
+    usage: /vanish [player]
+    aliases: [v]
+  silentvanish:
+    description: Toggle vanish state silently.
+    usage: /silentvanish [player]
+    aliases: [sv]
+permissions:
+  vanish.use:
+    description: Allows you to vanish yourself.
+    default: op
+  vanish.others:
+    description: Allows you to vanish other players.
+    default: op
+  vanish.see:
+    description: Allows you to see vanished players.
+    default: op
+  vanish.silent:
+    description: Allows you to silent vanish.
+    default: op
